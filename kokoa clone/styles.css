@@ -8,15 +8,34 @@ h1 {
 div {
   font-size: 120px;
   text-align: center;
-  width: 60px;
-  height: 150px;
-  margin: 50px;
+  padding: 15px;
   background-color: snow;
 }
 body {
-  margin: 0;
+  margin: 20px;
+  padding: 10px;
   background-color: indianred;
 }
 html {
   background-color: lightslategrey;
+}
+#first {
+  background-color: chartreuse;
+  width: 150px;
+  height: 150px;
+}
+#second {
+  background-color: darkgreen;
+  width: 100px;
+  height: 100px;
+}
+#third {
+  background-color: darkorange;
+  width: 50px;
+  height: 50px;
+}
+#fourth {
+  background-color: hotpink;
+  width: 25px;
+  height: 25px;
 }
