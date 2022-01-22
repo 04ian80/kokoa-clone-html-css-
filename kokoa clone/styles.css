@@ -6,16 +6,15 @@ h1 {
   text-align: center;
 }
 div {
+  font-size: 120px;
+  text-align: center;
   width: 60px;
   height: 150px;
-  margin-left: 50px;
+  margin: 50px;
   background-color: snow;
 }
 body {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 0;
   background-color: indianred;
 }
 html {
