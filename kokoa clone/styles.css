@@ -1,4 +1,4 @@
-* {
+*:not(#one, #two, #three) {
   border: 2px solid black;
 }
 div {
@@ -15,10 +15,6 @@ body {
 html {
   background-color: lightslategrey;
 }
-span {
-  border: 4px solid grey;
-  border-style: inset;
-}
 #first {
   background-color: chartreuse;
   width: 150px;
@@ -33,4 +29,13 @@ span {
   background-color: darkorange;
   width: 50px;
   height: 50px;
+}
+#one {
+  border-style: inset;
+}
+#two,
+#three {
+  padding: 20px;
+  background-color: teal;
+  margin: 30px;
 }
