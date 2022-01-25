@@ -1,23 +1,37 @@
 body {
-  height: 100vh;
-  margin: 20px;
-  display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
+  height: 200vh;
+  display: flex;
 }
-div {
+.bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
-  color: linen;
-  width: 200px;
-  height: 200px;
-  background-color: coral;
+  text-align: center;
+  word-spacing: 160px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: rosybrown;
 }
-#second {
-  background-color: burlywood;
-  order: 1;
-  align-self: flex-start;
+.abovebar {
+  font-style: arial;
+  color: seashell;
+  top: 0;
+  height: 70px;
+  background-color: olive;
+}
+.underbar {
+  opacity: 0.9;
+  font-style: monospace;
+  bottom: 0;
+  height: 70px;
+  background-color: rosybrown;
+}
+.middle {
+  width: 10px;
+  height: 60%;
+  background-color: orange;
 }
