@@ -1,15 +1,23 @@
 body {
+  height: 100vh;
   margin: 20px;
   display: flex;
-  height: 100vh;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
+  flex-direction: row;
 }
 div {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: linen;
+  width: 200px;
+  height: 200px;
   background-color: coral;
 }
 #second {
   background-color: burlywood;
+  order: 1;
+  align-self: flex-start;
 }
