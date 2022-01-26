@@ -4,15 +4,12 @@ body {
   height: 200vh;
   margin: 50px;
 }
-div {
-  width: 100px;
-  height: 100px;
-  background-color: palevioletred;
-  position: relative;
+input[placeholder~="name"] {
+  background-color: pink;
 }
-span {
-  background-color: gold;
+input {
+  border: 1px solid wheat;
 }
-span:nth-child(2n + 1) {
-  background-color: darkseagreen;
+input:required {
+  border-color: lightseagreen;
 }
