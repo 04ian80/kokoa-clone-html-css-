@@ -1,9 +1,17 @@
+:root {
+  --main-color: #fcce00;
+  --default-border: 1px solid var(--main-color);
+}
 body {
   justify-content: center;
   align-items: center;
   height: 200vh;
   margin: 50px;
 }
-input[placeholder^="name"] {
-  color: springgreen;
+p {
+  background-color: var(--main-color);
+}
+a {
+  color: var(--main-color);
+  border: var(--default-border);
 }
