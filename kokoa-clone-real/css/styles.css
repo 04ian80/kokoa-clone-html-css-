@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import "reset.css";
 @import "variables.css";
 
 /* components */
 @import "components/status-bar.css";
-
+@import "components/nav-bar.css";
 /* screens */
-@import "screens/login2.css";
+@import "screens/login.css";
 
 body {
   font-family: "Lato", sans-serif;

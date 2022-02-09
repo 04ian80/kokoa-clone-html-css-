@@ -5,6 +5,7 @@
 }
 .status-bar__column {
   width: 33%;
+  align-items: center;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;
@@ -17,6 +18,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+.status-bar__column:last-child .bi-battery-half {
+  margin-left: 3px;
+}
+.status-bar__column:last-child .bi-lightning-charge-fill {
+  margin-left: 2px;
 }
 .status-bar__column .fa-battery-half {
   margin: 0px 5px;
