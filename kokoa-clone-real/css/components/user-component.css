@@ -1,3 +1,7 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -25,6 +29,16 @@
   height: 80px;
 }
 
-.friends-screen {
-  padding: 0px var(--horizontal-space);
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+
+.user-component__username--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: #9b9b9b;
 }

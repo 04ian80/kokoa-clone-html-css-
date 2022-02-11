@@ -1,3 +1,6 @@
+body {
+  height: 200vh;
+}
 #friends-display-link {
   text-align: center;
   display: block;
@@ -10,4 +13,20 @@
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 3px solid #fafafa;
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  color: #9b9b9b;
 }

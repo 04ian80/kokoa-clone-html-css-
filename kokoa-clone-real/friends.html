@@ -20,7 +20,7 @@
 
       <div class="status-bar__column">
         <span>48%</span>
-        <i class="bi bi-battery-half" style="font-size: 21px"></i>
+        <i class="bi bi-battery-half" style="font-size: 22px"></i>
         <i class="bi bi-lightning-charge-fill" style="font-size: 15px"></i>
       </div>
     </div>
@@ -40,6 +40,7 @@
      </a>
 
      <main class="friends-screen">
+       <!--내 프로필-->
      <div class="user-component">
          <div class="user-component__column">
              <img src="photo/avatar.jpg" class="user-component__avatar user-component__avatar--xl"/>
@@ -50,18 +51,29 @@
          </div>
          <div class="user-component__column"></div>
      </div>
+     
+     <!--채널-->
      <div class="friends-screen__channel">
+      
+      <!--채널 바-->
          <div class="friends-screen__channel-header">
              <span>Channel</span>
              <i class="bi bi-chevron-compact-up" style="font-size: 16px;"></i>
          </div>
+         
+         <!--/*채널 프로필*/-->
          <div class="user-component">
             <div class="user-component__column">
+              <!--user-component__avatar--sm 만들기-->
                 <img src="photo/avatar.jpg" class="user-component__avatar user-component__avatar--sm"/>
+                
+                <!--채널 이름-->
                 <div class="user-component__text">
-                    <h4 class="user-component__username">channel</h4>
+                    <h4 class="user-component__username user-component__username--not-bold">channel</h4>
                 </div>
             </div>
+
+            <!--오른쪽:두번째 콜룸(2>))-->
             <div class="user-component__column">
                 <span>2<i class="bi bi-chevron-compact-right" style="font-size: 16px;"></i></span>
             </div>
