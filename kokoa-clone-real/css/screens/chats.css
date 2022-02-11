@@ -1,3 +1,22 @@
+/*Chats에만 있는 screen-header icon*/
+.screen-header__a {
+  position: relative;
+  bottom: 1px;
+  margin-left: 20px;
+}
+.screen-header__a--plus {
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  left: -3px;
+  bottom: 6px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+}
+
 .user-component__chats {
   margin-top: 100px;
 }
