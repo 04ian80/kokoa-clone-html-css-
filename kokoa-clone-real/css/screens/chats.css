@@ -5,13 +5,13 @@
   margin-left: 20px;
 }
 .screen-header__a--plus {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  left: -3px;
-  bottom: 6px;
+  left: -8px;
+  bottom: 4px;
   background-color: white;
   position: absolute;
   display: flex;
@@ -23,4 +23,17 @@
 
 .user-component__text {
   justify-content: space-between;
+}
+
+.chats__notification {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: tomato;
+  font-size: 10px;
+  font-weight: 400;
 }
