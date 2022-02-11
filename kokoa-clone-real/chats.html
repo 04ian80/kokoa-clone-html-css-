@@ -5,9 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>friends - Kokoa Clone</title>
+    <title>chats - Kokoa Clone</title>
   </head>
-  
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -27,57 +26,33 @@
     </div>
 
      <header class="screen-header">
-         <h1 class="screen-header__title">Friends</h1>
+         <h1 class="screen-header__title">Chats</h1>
          <div class="screen-header__icon">
              <span><i class="bi bi-search" style="font-size:x-large"></i></span>
+             <span><i class="bi bi-envelope-plus" style="font-size:x-large"></i></span>
              <span><i class="bi bi-music-note-beamed" style="font-size: x-large"></i></span>
              <span><i class="bi bi-gear" style="font-size: x-large"></i></span>
          </div>
      </header>
 
-     <a id="friends-display-link" href="#"><i class="bi bi-info-circle-fill"></i>
-         Friends' Names Display<i class="bi bi-chevron-compact-right" style="font-size: 16px;"></i>
-
-     </a>
-
      <main class="main-screen">
        <!--내 프로필-->
-     <div class="user-component">
+     <div class="user-component user-component__chats">
          <div class="user-component__column">
-             <img src="photo/avatar.jpg" class="user-component__avatar user-component__avatar--xl"/>
+             <img src="photo/talk.png" class="user-component__avatar"/>
              <div class="user-component__text">
-                 <h4 class="user-component__username">AIN</h4>
-                 <!--<h6 class="user-component__subtitle">love you, babe</h6>-->
+                 <h4 class="user-component__username">Channel</h4>
+                 <h6 class="user-component__subtitle">Welcom To KokoaClone!</h6>
              </div>
          </div>
          <div class="user-component__column"></div>
      </div>
-     
-     <!--채널-->
-     <div class="friends-screen__channel">
-      
-      <!--채널 바-->
-         <div class="friends-screen__channel-header">
-             <span>Channel</span>
-             <i class="bi bi-chevron-compact-up" style="font-size: 16px;"></i>
-         </div>
-         
-         <!--/*채널 프로필*/-->
-         <div class="user-component">
-            <div class="user-component__column">
-              <!--user-component__avatar--sm 만들기-->
-                <img src="photo/channel.png" class="user-component__avatar user-component__avatar--sm"/>
-                
-                <!--채널 이름-->
-                <div class="user-component__text">
-                    <h4 class="user-component__username user-component__username--not-bold">Channel</h4>
-                </div>
-            </div>
 
             <!--오른쪽:두번째 콜룸(2>))-->
-            <div class="user-component__column">
-                <span>2<i class="bi bi-chevron-compact-right" style="font-size: 16px;"></i></span>
-            </div>
+         <div class="user-component__column">
+            <span>6:54</span>
+            <span>1</span>
+        </div>
         </div>
      </div>
     </main>
@@ -86,13 +61,13 @@
       <ul class="nav__ul">
         <li class="nav__li">
           <a class="nav__a" href="friends.html"
-            ><i class="bi bi-person-fill" style="font-size: xx-large"></i>
+            ><i class="bi bi-person" style="font-size: xx-large"></i>
         </a>
         </li class="nav__li">
         <li>
           <a class="nav__a" href="chats.html">
               <span class="nav__notification nav__notification--chat">1</span>
-           <i class="bi bi-chat" style="font-size: xx-large"></i>
+           <i class="bi bi-chat-fill" style="font-size: xx-large"></i>
         </a>
         </li>
         <li class="nav__li">
