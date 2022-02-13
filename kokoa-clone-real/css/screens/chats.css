@@ -17,10 +17,6 @@
   display: flex;
 }
 
-.user-component__chats {
-  margin-top: 100px;
-}
-
 .user-component__text {
   justify-content: space-between;
 }

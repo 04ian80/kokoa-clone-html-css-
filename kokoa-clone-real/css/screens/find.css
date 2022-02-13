@@ -1,0 +1,33 @@
+.find-icons {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid #fafafa;
+  padding-bottom: 35px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 25px;
+}
+
+.find-icons__icon span {
+  margin-top: 30px;
+}
+
+.id__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #2f363e;
+  background-color: white;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: bold;
+}
