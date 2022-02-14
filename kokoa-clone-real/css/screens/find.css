@@ -1,8 +1,6 @@
 .find-icons {
   display: flex;
   justify-content: space-around;
-  border-bottom: 3px solid #fafafa;
-  padding-bottom: 35px;
 }
 
 .find-icons__icon {
@@ -16,11 +14,17 @@
 }
 
 .find-icons__icon span:not(.add-by, .contact) {
-  margin-top: 30px;
+  margin-top: 28px;
+  font-size: 14px;
 }
 
 .add-by {
-  margin-top: 24px;
+  margin-top: 23px;
+}
+
+.add-by,
+.contact {
+  font-size: 14px;
 }
 
 .id__icon {
@@ -34,4 +38,24 @@
   border-radius: 50%;
   font-size: 13px;
   font-weight: bold;
+}
+
+.recommended-friends {
+  margin: 27px 0px;
+  padding: 14px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  font-size: 13px;
+  color: var(--second-color);
+}
+
+.recommended-friends span {
+  margin: 80px 0px;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: var(--second-color);
 }

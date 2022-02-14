@@ -4,14 +4,14 @@
   bottom: 1px;
   margin-left: 20px;
 }
-.screen-header__a--plus {
-  width: 13px;
-  height: 13px;
+.screen-header__a span {
+  width: 12px;
+  height: 12px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   left: -8px;
-  bottom: 4px;
+  bottom: 6px;
   background-color: white;
   position: absolute;
   display: flex;
