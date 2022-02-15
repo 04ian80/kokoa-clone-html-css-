@@ -20,7 +20,7 @@
 }
 .user-component__subtitle {
   margin-top: 3px;
-  color: #9b9b9b;
+  color: var(--body-text-color);
   font-size: 15px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .user-component__column:last-child {
-  color: #9b9b9b;
+  color: var(--body-text-color);
   font-size: 15px;
   display: flex;
   flex-direction: column;

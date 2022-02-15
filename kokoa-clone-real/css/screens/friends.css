@@ -21,6 +21,6 @@
   margin-bottom: 18px;
   display: flex;
   justify-content: space-between;
-  color: var(--second-color);
+  color: var(--subtitle-color);
   font-size: 12px;
 }
