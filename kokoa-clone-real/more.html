@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>more - Kokoa Clone</title>
+  </head>
+  
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="bi bi-wifi" style="font-size: 17px"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>48%</span>
+        <i class="bi bi-battery-half" style="font-size: 22px"></i>
+        <i class="bi bi-lightning-charge-fill" style="font-size: 15px"></i>
+      </div>
+    </div>
+
+     <header class="screen-header">
+         <h1 class="screen-header__title">더보기</h1>
+         <div class="screen-header__icon">
+             <span><i class="bi bi-search" style="font-size: larger"></i></span>
+             <span><i class="bi bi-music-note-beamed" style="font-size: larger"></i></span>
+             <span><div class="gear-dot dot"></div><i class="bi bi-gear" style="font-size: larger"></i></span>
+         </div>
+     </header>
+
+     <main class="main-screen">
+       <!--내 프로필-->
+     <div class="user-component">
+         <div class="user-component__column">
+             <img src="photo/avatar.jpg" class="user-component__avatar user-component__avatar--xl"/>
+             <div class="user-component__text">
+                 <h4 class="user-component__username">아인</h4>
+                 <h6 class="user-component__subtitle">+82 10-12**-56**</h6>
+             </div>
+         </div>
+         <div class="user-component__column">
+            <i class="bi bi-chat-square-text" style="font-size: x-large"></i>
+         </div>
+     </div>
+     <div class="icon-raw icon-raw__more">
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-calendar-check"></i>
+            <span>Calendar</span></div>
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-journal-plus"></i>
+            <span>Talk Drive</span></div>
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-emoji-sunglasses"></i>
+            <span>Emoticons</span></div>
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-paint-bucket"></i>
+            <span>Theme</span></div>
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-key"></i>
+            <span>Account</span></div>
+        <div class="icon-raw__icon icon-raw__icon-more"><i class="bi bi-people"></i>
+            <span>Openchat</span></div>
+       </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html">
+            <i class="bi bi-person" style="font-size: x-large"></i>
+        </a>
+        </li class="nav__li">
+        <li>
+          <a class="nav__a" href="chats.html">
+              <span class="nav__notification badge">1</span>
+           <i class="bi bi-chat" style="font-size: x-large"></i>
+        </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html">
+            <i class="bi bi-search" style="font-size: x-large"></i>
+        </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html">
+              <span class="nav__notification dot"></span>
+            <i class="bi bi-three-dots" style="font-size: x-large"></i>
+        </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
