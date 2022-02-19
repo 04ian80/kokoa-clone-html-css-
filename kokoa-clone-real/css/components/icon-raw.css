@@ -20,11 +20,9 @@
 
 .icon-raw__more {
   flex-wrap: wrap;
-  justify-content: stretch;
-  flex-direction: row;
-  margin-top: 15px;
+  margin: 18px;
 }
 
 .icon-raw__icon-more {
-  padding: 15px 6px;
+  padding-right: 10px;
 }
