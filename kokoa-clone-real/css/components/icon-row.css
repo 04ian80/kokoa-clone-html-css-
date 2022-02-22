@@ -1,0 +1,31 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 25px;
+}
+
+.icon-row__icon span:not(.add-by, .contact) {
+  margin-top: 28px;
+  font-size: 14px;
+}
+
+.icon-row__more {
+  margin: 18px;
+}
+
+.icon-row__first {
+  border-bottom: 18px solid rgba(0, 0, 0, 0);
+}
+
+.icon-row__second {
+  padding-left: 3px;
+}

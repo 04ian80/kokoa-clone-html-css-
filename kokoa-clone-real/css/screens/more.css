@@ -31,5 +31,11 @@
 
 .more-suggestions__icon-image {
   font-size: 40px;
+  font-weight: 800;
   color: white;
+}
+
+.fake-div {
+  height: 68.08px;
+  width: 155px;
 }
