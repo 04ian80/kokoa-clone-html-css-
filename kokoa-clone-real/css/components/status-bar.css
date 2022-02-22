@@ -2,12 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 3px;
-  top: 0px;
+  padding: 0px 3px 5px 3px;
 }
 .status-bar__column {
   width: 33%;
   align-items: center;
+}
+.status-bar__column span {
+  font-size: 13px;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;
