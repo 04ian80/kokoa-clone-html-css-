@@ -59,17 +59,38 @@
   margin-bottom: 6px;
 }
 
-.message__bubble {
-  background-color: white;
+.message__bubble,
+.message__bubble__me {
   padding: 10px 11px;
   border-radius: 13px;
+  color: black;
+}
+
+.message__bubble {
+  background-color: white;
   border-top-left-radius: 0px;
   margin-right: 5px;
 }
 
-.message-info {
+.message__bubble__me {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+}
+
+.message-info,
+.message-info__me {
   display: flex;
+}
+
+.message-info {
   align-items: flex-end;
+  margin-bottom: 13px;
+}
+
+.message-info__me {
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .message__time {
