@@ -24,3 +24,16 @@
   color: var(--subtitle-color);
   font-size: 12px;
 }
+
+.splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  color: #3c1e1e;
+}
