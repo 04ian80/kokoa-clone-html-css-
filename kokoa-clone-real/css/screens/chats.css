@@ -21,6 +21,18 @@
   justify-content: space-between;
 }
 
+@keyframes chatsBadgeAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .chats__notification {
   display: flex;
   width: 20px;
@@ -32,4 +44,5 @@
   background-color: tomato;
   font-size: 10px;
   font-weight: 400;
+  animation: chatsBadgeAnimation 2s ease-in-out infinite;
 }
