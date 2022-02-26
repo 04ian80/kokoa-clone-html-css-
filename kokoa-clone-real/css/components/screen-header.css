@@ -13,3 +13,16 @@
   margin-left: 20px;
   position: relative;
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.screen-header__icon .bi-gear {
+  animation: rotateGear 3s ease-in-out infinite;
+}
