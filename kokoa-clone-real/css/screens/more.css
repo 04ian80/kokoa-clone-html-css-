@@ -12,7 +12,7 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 26px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,5 +37,5 @@
 
 .fake-div {
   height: 68.08px;
-  width: 170px;
+  width: 135px;
 }
