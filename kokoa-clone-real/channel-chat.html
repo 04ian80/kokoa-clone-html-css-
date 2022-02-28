@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat with nogy - Kokoa Clone</title>
+  </head>
+
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="bi bi-wifi" style="font-size: 17px"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>48%</span>
+        <i class="bi bi-battery-half" style="font-size: 22px"></i>
+        <i class="bi bi-lightning-charge-fill" style="font-size: 10px"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="bi bi-chevron-left" style="font-size: x-large"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">코코아톡 채널
+        </h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="bi bi-search" style="font-size: larger"></i></span>
+        <span><i class="bi bi-list" style="font-size: xx-large"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2022년 2월 14일 목요일</div>
+
+      <div class="message-row">
+        <img src="photo/channel.png" class="chat__avatar" />
+        <div class="message-row__content">
+          <span class="message__author">코코아톡 채널</span>
+          <div class="message-info">
+            <span class="message__bubble">'코코아톡 채널' 채널을 추가해 주셔서 감사합니다.
+                <p>앞으로 다양한 소식과 혜택/정보를 메시지로 받으실 수 있습니다.</p>
+            <br>채널 추가 일시(한국시간 기준):2022년 02월 14일 09:10</br>
+            <br>수신거부: 홈>채널차단</br>
+            </span>
+            <span class="message__time">09:10</span>
+          </div>
+        </div>
+      </div>
+
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="bi bi-plus-square" style="font-size: x-large"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="bi bi-emoji-smile" style="font-size: x-large"></i>
+        <button>
+          <i class="bi bi-arrow-up-short"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-pc">
+      <span>Your Screen Is Too Big.</span>
+    </div>
+  </body>
+</html>

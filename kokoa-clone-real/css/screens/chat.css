@@ -96,6 +96,8 @@
   background-color: white;
   border-top-left-radius: 0px;
   margin-right: 5px;
+  width: 70%;
+  font-size: 13px;
 }
 
 .message-row__me .message__bubble {
