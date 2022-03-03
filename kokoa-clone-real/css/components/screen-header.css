@@ -23,6 +23,7 @@
   }
 }
 
-.screen-header__icon .bi-gear {
-  animation: rotateGear 3s ease-in-out infinite;
+.screen-header__icon .bi-gear:hover {
+  animation: rotateGear 1s ease-in-out infinite;
+  display: inline-block;
 }
